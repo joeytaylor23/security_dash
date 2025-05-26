@@ -9,3 +9,205 @@
 2025-05-22 17:47:34.476 | INFO     | __main__:<module>:11 - App started
 2025-05-22 19:55:42.097 | INFO     | __main__:<module>:11 - App started
 2025-05-22 19:57:31.612 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:31:45.643 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:35:06.043 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:35:16.987 | INFO     | modules.threat_detection:run_threat_scan:22 - Threat scan started.
+2025-05-23 15:35:17.489 | WARNING  | modules.threat_detection:show_results:34 - [!] Suspicious login detected from IP 192.168.1.5
+2025-05-23 15:35:17.490 | WARNING  | modules.threat_detection:show_results:34 - [!] Unusual process behavior: python.exe attempting outbound connection
+2025-05-23 15:35:17.491 | WARNING  | modules.threat_detection:show_results:34 - [!] Potential malware: unknown.exe flagged by heuristic analysis
+2025-05-23 15:35:17.512 | WARNING  | modules.threat_detection:show_results:34 - [✓] Scan complete. 3 potential threats found.
+2025-05-23 15:38:22.215 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:41:28.632 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:42:02.269 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:43:26.807 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: chrome.exe (233.38 MB)
+2025-05-23 15:43:27.014 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: MemCompression (1263.25 MB)
+2025-05-23 15:43:27.019 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: mc-fw-host.exe (119.29 MB)
+2025-05-23 15:43:27.021 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: explorer.exe (120.11 MB)
+2025-05-23 15:43:27.023 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: chrome.exe (152.16 MB)
+2025-05-23 15:43:27.024 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: chrome.exe (365.10 MB)
+2025-05-23 15:43:27.025 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: Code.exe (166.16 MB)
+2025-05-23 15:43:27.028 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: chrome.exe (198.07 MB)
+2025-05-23 15:43:27.029 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] High memory usage: Code.exe (192.83 MB)
+2025-05-23 15:43:27.030 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 20.198.162.76:443 (Unknown)
+2025-05-23 15:43:27.031 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 140.82.112.26:443 (lb-140-82-112-26-iad.github.com)
+2025-05-23 15:43:27.041 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 34.195.221.223:443 (ec2-34-195-221-223.compute-1.amazonaws.com)
+2025-05-23 15:43:27.041 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 96.16.241.23:80 (a96-16-241-23.deploy.static.akamaitechnologies.com)
+2025-05-23 15:43:27.043 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 3.216.174.242:443 (ec2-3-216-174-242.compute-1.amazonaws.com)
+2025-05-23 15:43:27.044 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 34.205.96.238:443 (ec2-34-205-96-238.compute-1.amazonaws.com)
+2025-05-23 15:43:27.064 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 17.57.146.155:5223 (Unknown)
+2025-05-23 15:43:27.070 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 13.89.179.14:443 (Unknown)
+2025-05-23 15:43:27.071 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 140.82.112.25:443 (lb-140-82-112-25-iad.github.com)
+2025-05-23 15:43:27.071 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 20.169.174.231:443 (Unknown)
+2025-05-23 15:43:27.076 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 20.198.162.76:443 (Unknown)
+2025-05-23 15:43:27.076 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 142.250.102.188:5228 (rb-in-f188.1e100.net)
+2025-05-23 15:43:27.081 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 3.77.249.83:443 (ec2-3-77-249-83.eu-central-1.compute.amazonaws.com)
+2025-05-23 15:43:27.084 | WARNING  | modules.threat_detection:get_threat_detection_tab:57 - [!] External connection: 96.16.241.23:80 (a96-16-241-23.deploy.static.akamaitechnologies.com)
+2025-05-23 15:43:28.527 | WARNING  | modules.threat_detection:show_results:69 - [!] Suspicious login detected from IP 192.168.1.5
+2025-05-23 15:43:28.544 | WARNING  | modules.threat_detection:show_results:69 - [!] Unusual process behavior: python.exe attempting outbound connection
+2025-05-23 15:43:28.714 | WARNING  | modules.threat_detection:show_results:69 - [!] Potential malware: unknown.exe flagged by heuristic analysis
+2025-05-23 15:43:28.725 | WARNING  | modules.threat_detection:show_results:69 - [✓] Scan complete. 3 potential threats found.
+2025-05-23 15:43:50.213 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:43:54.866 | INFO     | modules.threat_detection:run_threat_scan:25 - Real-time threat scan started.
+2025-05-23 15:44:59.761 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:45:03.870 | INFO     | modules.threat_detection:run_threat_scan:25 - Real-time threat scan started.
+2025-05-23 15:46:56.787 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: Code.exe (109.28 MB)
+2025-05-23 15:46:56.794 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: MemCompression (1238.82 MB)
+2025-05-23 15:46:56.795 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: explorer.exe (116.72 MB)
+2025-05-23 15:46:56.796 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: chrome.exe (186.45 MB)
+2025-05-23 15:46:56.797 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: chrome.exe (380.66 MB)
+2025-05-23 15:46:56.798 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: chrome.exe (207.00 MB)
+2025-05-23 15:46:56.798 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] High memory usage: Code.exe (183.47 MB)
+2025-05-23 15:46:56.799 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 20.198.162.76:443 (Unknown)
+2025-05-23 15:46:56.801 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 140.82.112.25:443 (lb-140-82-112-25-iad.github.com)
+2025-05-23 15:46:56.805 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 96.16.241.23:80 (a96-16-241-23.deploy.static.akamaitechnologies.com)
+2025-05-23 15:46:56.808 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 13.89.179.9:443 (Unknown)
+2025-05-23 15:46:56.814 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 142.250.102.188:5228 (rb-in-f188.1e100.net)
+2025-05-23 15:46:56.822 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 52.203.19.181:443 (ec2-52-203-19-181.compute-1.amazonaws.com)
+2025-05-23 15:46:56.832 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 20.198.162.76:443 (Unknown)
+2025-05-23 15:46:56.849 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 17.57.146.155:5223 (Unknown)
+2025-05-23 15:46:56.852 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 20.190.159.73:443 (Unknown)
+2025-05-23 15:46:56.855 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 142.251.39.98:443 (ams15s48-in-f2.1e100.net)
+2025-05-23 15:46:56.856 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 140.82.112.26:443 (lb-140-82-112-26-iad.github.com)
+2025-05-23 15:46:56.863 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 20.169.174.231:443 (Unknown)
+2025-05-23 15:46:56.865 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 13.89.179.9:443 (Unknown)
+2025-05-23 15:46:56.866 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 96.16.241.23:80 (a96-16-241-23.deploy.static.akamaitechnologies.com)
+2025-05-23 15:46:56.868 | WARNING  | modules.threat_detection:run_threat_scan:57 - [!] External connection: 34.195.221.223:443 (ec2-34-195-221-223.compute-1.amazonaws.com)
+2025-05-23 15:46:57.374 | WARNING  | modules.threat_detection:show_simulated_results:69 - [!] Suspicious login detected from IP 192.168.1.5
+2025-05-23 15:46:57.378 | WARNING  | modules.threat_detection:show_simulated_results:69 - [!] Unusual process behavior: python.exe attempting outbound connection
+2025-05-23 15:46:57.379 | WARNING  | modules.threat_detection:show_simulated_results:69 - [!] Potential malware: unknown.exe flagged by heuristic analysis
+2025-05-23 15:46:57.391 | WARNING  | modules.threat_detection:show_simulated_results:69 - [✓] Scan complete. 3 potential threats found.
+2025-05-23 15:50:19.437 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:50:26.801 | INFO     | modules.risk_assessment:run_assessment:24 - Running risk assessment...
+2025-05-23 15:50:29.486 | WARNING  | modules.risk_assessment:run_assessment:76 - [!] High uptime without reboot. Consider restarting for updates.
+2025-05-23 15:50:29.487 | WARNING  | modules.risk_assessment:run_assessment:76 - [!] High memory usage.
+2025-05-23 15:50:29.488 | WARNING  | modules.risk_assessment:run_assessment:76 - [!] Too many high memory processes.
+2025-05-23 15:50:29.489 | WARNING  | modules.risk_assessment:run_assessment:76 - [!] Multiple external connections.
+2025-05-23 15:50:29.517 | WARNING  | modules.risk_assessment:run_assessment:76 - 
+[⚠️] Risk Level: HIGH
+2025-05-23 15:51:50.767 | INFO     | __main__:<module>:11 - App started
+2025-05-23 15:51:52.433 | INFO     | modules.asset_management:refresh_assets:24 - Refreshing asset information...
+2025-05-23 15:51:52.537 | INFO     | modules.asset_management:refresh_assets:53 - Asset information refreshed.
+2025-05-23 16:03:20.653 | INFO     | __main__:<module>:11 - App started
+2025-05-23 16:03:23.841 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-23 16:03:24.059 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:47.619 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:49.822 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:50.848 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:51.289 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:51.963 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:03:53.280 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:14:33.519 | INFO     | __main__:<module>:11 - App started
+2025-05-23 16:14:36.831 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-23 16:14:37.170 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:14:45.925 | INFO     | modules.compliance:check_compliance:71 - Compliance check started.
+2025-05-23 16:14:56.088 | INFO     | modules.compliance:check_compliance:71 - Compliance check started.
+2025-05-23 16:24:24.469 | INFO     | __main__:<module>:11 - App started
+2025-05-23 16:24:26.678 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-23 16:24:26.884 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-23 16:24:29.607 | INFO     | modules.compliance:check_compliance:23 - Compliance check started.
+2025-05-23 16:25:53.480 | INFO     | modules.compliance:check_compliance:51 - Compliance check completed.
+2025-05-23 16:25:53.695 | INFO     | modules.compliance:check_compliance:23 - Compliance check started.
+2025-05-23 16:26:44.997 | INFO     | modules.compliance:check_compliance:51 - Compliance check completed.
+2025-05-24 14:31:40.427 | INFO     | modules.compliance:check_compliance:23 - Compliance check started.
+2025-05-24 14:35:11.276 | INFO     | __main__:<module>:11 - App started
+2025-05-24 14:35:13.644 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-24 14:35:13.860 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 14:35:23.386 | INFO     | modules.compliance:check_compliance:23 - Compliance check started.
+2025-05-24 14:36:26.751 | INFO     | modules.compliance:check_compliance:51 - Compliance check completed.
+2025-05-24 14:39:27.061 | INFO     | __main__:<module>:11 - App started
+2025-05-24 14:39:28.813 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-24 14:39:29.014 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 14:41:03.354 | INFO     | __main__:<module>:11 - App started
+2025-05-24 14:41:04.095 | INFO     | modules.asset_management:get_asset_management_tab:63 - Asset information refreshed.
+2025-05-24 14:41:04.184 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 14:41:09.924 | WARNING  | modules.incident_response:simulate_alert:60 - [2025-05-24 14:41:09] [!] Suspicious login attempt from external IP 203.0.113.45
+2025-05-24 16:13:51.876 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:14:31.985 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:15:56.617 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:16:03.090 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:19:45.098 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:19:48.623 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:22:47.942 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:22:51.565 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:33:41.042 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:33:45.624 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:34:04.641 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:34:07.029 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:35:00.046 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:35:02.657 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:36:33.494 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:36:36.903 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:37:55.972 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:38:00.614 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:38:29.001 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:38:31.486 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:40:28.247 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:40:31.158 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 16:46:10.794 | INFO     | __main__:<module>:11 - App started
+2025-05-24 16:46:14.434 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:04:17.354 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:04:21.047 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:05:56.598 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:05:59.193 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:07:49.462 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:07:51.971 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:10:13.078 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:10:16.425 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:11:00.748 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:11:03.850 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:13:04.397 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:13:07.222 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:20:17.600 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:21:42.484 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:21:46.019 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:23:18.728 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:23:21.224 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:26:13.597 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:26:16.995 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:29:59.697 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:30:02.192 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:30:45.253 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:30:47.788 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-24 17:31:49.314 | INFO     | __main__:<module>:11 - App started
+2025-05-24 17:31:51.559 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 12:11:36.780 | INFO     | __main__:<module>:11 - App started
+2025-05-26 12:11:42.303 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 12:12:23.211 | INFO     | __main__:<module>:11 - App started
+2025-05-26 12:12:26.166 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 12:38:40.615 | INFO     | __main__:<module>:11 - App started
+2025-05-26 12:38:44.823 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 12:43:34.351 | INFO     | __main__:<module>:11 - App started
+2025-05-26 12:43:37.798 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 12:55:07.357 | INFO     | __main__:<module>:11 - App started
+2025-05-26 12:55:10.361 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:02:10.236 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:02:12.992 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:05:56.277 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:05:58.599 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:06:35.346 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:06:37.841 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:06:57.736 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:06:59.829 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:08:34.924 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:08:37.789 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:09:18.805 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:09:21.629 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:28:39.385 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:29:54.800 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:32:05.271 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:32:41.758 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:34:51.535 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:34:54.180 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:36:26.297 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:36:42.554 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:36:45.114 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:41:53.035 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:43:41.901 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:48:06.432 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:48:08.952 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:56:36.919 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:56:39.135 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:57:16.195 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:57:18.150 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...
+2025-05-26 13:57:39.811 | INFO     | __main__:<module>:11 - App started
+2025-05-26 13:57:41.505 | INFO     | modules.asset_management:refresh_assets:25 - Refreshing asset information...

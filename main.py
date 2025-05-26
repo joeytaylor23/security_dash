@@ -18,6 +18,7 @@ from modules.risk_assessment import get_risk_assessment_tab
 from modules.asset_management import get_asset_management_tab
 from modules.compliance import get_compliance_tab
 from modules.incident_response import get_incident_response_tab
+#from modules.view_incidents import get_incident_log_tab
 
 class SecurityDashboard(QMainWindow):
     def __init__(self):
@@ -40,9 +41,12 @@ class SecurityDashboard(QMainWindow):
        self.tabs.addTab(get_asset_management_tab(), "Asset Management")
        self.tabs.addTab(get_compliance_tab(), "Compliance Tracking")
        self.tabs.addTab(get_incident_response_tab(), "Incident Response")
+       #self.tabs.addTab(get_incident_log_tab(), "Incident Log")
+
 
 if __name__ == "__main__":
-    app = QApplication(sys.argv)
+    app = QApplication(
+        sys.argv)
     window = SecurityDashboard()
     window.show()
     sys.exit(app.exec_())

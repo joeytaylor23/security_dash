@@ -1,42 +1,74 @@
-from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QTextEdit, QLabel
-import random
+import psutil
+import socket
 
+from PyQt5.QtWidgets import QWidget, QVBoxLayout, QPushButton, QTextEdit, QLabel
+from PyQt5.QtCore import QTimer
+from loguru import logger
 
 def get_threat_detection_tab():
-    widget = QWidget()
+    tab = QWidget()
     layout = QVBoxLayout()
 
-    title = QLabel("Threat Detection")
-    title.setStyleSheet("font-size: 18px; font-weight: bold;")
+    label = QLabel("Threat Detection Module")
+    start_button = QPushButton("Start Threat Scan")
+    result_box = QTextEdit()
+    result_box.setReadOnly(True)
 
-    results_box = QTextEdit()
-    results_box.setReadOnly(True)
-
-    scan_button = QPushButton("Run Threat Scan")
+    layout.addWidget(label)
+    layout.addWidget(start_button)
+    layout.addWidget(result_box)
+    tab.setLayout(layout)
 
     def run_threat_scan():
-        results_box.clear()
-        results_box.append("🔍 Scanning for threats...")
+        result_box.clear()
+        result_box.append("Running real-time threat scan...\n")
+        logger.info("Real-time threat scan started.")
 
-        # Simulated threat scan (replace with real logic later)
-        fake_threats = [
-            "✔️ No threats found.",
-            "⚠️ Suspicious file: C:/Users/Username/Documents/malicious.exe",
-            "⚠️ Anomaly detected in network traffic (port 8080).",
-            "✔️ System registry is clean.",
-            "⚠️ Elevated privileges attempt detected.",
-        ]
+        suspicious_processes = []
+        network_threats = []
 
-        # Randomly pick 2–3 results to simulate scanning
-        threats_found = random.sample(fake_threats, k=random.randint(2, 4))
-        for line in threats_found:
-            results_box.append(line)
+        # Check for suspicious processes
+        for proc in psutil.process_iter(['pid', 'name', 'memory_info']):
+            try:
+                mem = proc.info['memory_info'].rss / (1024 * 1024)  # MB
+                name = proc.info['name']
+                if mem > 100:  # Example threshold
+                    suspicious_processes.append(f"[!] High memory usage: {name} ({mem:.2f} MB)")
+            except (psutil.NoSuchProcess, psutil.AccessDenied):
+                continue
 
-    scan_button.clicked.connect(run_threat_scan)
+        # Check open network connections
+        for conn in psutil.net_connections(kind='inet'):
+            if conn.status == 'ESTABLISHED' and conn.raddr:
+                ip, port = conn.raddr
+                if not ip.startswith("192.168.") and not ip.startswith("127.0.0.1"):
+                    try:
+                        hostname = socket.gethostbyaddr(ip)[0]
+                    except:
+                        hostname = "Unknown"
+                    network_threats.append(f"[!] External connection: {ip}:{port} ({hostname})")
 
-    layout.addWidget(title)
-    layout.addWidget(results_box)
-    layout.addWidget(scan_button)
+        # Show real scan results
+        if not suspicious_processes and not network_threats:
+            result_box.append("[✓] No suspicious activity found.")
+        else:
+            for line in suspicious_processes + network_threats:
+                result_box.append(line)
+                logger.warning(line)
 
-    widget.setLayout(layout)
-    return widget
+        # Optionally simulate extra findings after a delay
+        def show_simulated_results():
+            fake_threats = [
+                "[!] Suspicious login detected from IP 192.168.1.5",
+                "[!] Unusual process behavior: python.exe attempting outbound connection",
+                "[!] Potential malware: unknown.exe flagged by heuristic analysis",
+                "[✓] Scan complete. 3 potential threats found."
+            ]
+            for threat in fake_threats:
+                result_box.append(threat)
+                logger.warning(threat)
+
+        QTimer.singleShot(500, show_simulated_results)
+
+    start_button.clicked.connect(run_threat_scan)
+    return tab
