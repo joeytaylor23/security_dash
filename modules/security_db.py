@@ -6,7 +6,7 @@ def get_connection():
         host="localhost",
         user="root",
         password="CenaVsPunk2011!",
-        database="security_app"
+        database="security_app_db"
     )
 
 def save_incident_log(incident_text):

@@ -19,7 +19,7 @@ def get_incident_log_tab():
             host="localhost",
             user="root",
             password="CenaVsPunk2011!",  # Replace with your real password
-            database="security_app"
+            database="security_app_db"
         )
         if connection.is_connected():
             cursor = connection.cursor()
